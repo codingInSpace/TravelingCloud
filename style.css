@@ -5,18 +5,18 @@
 
 	html, body {
 		height: 100%;
-		min-height: 1000px;
+		min-height: 800px;
 	}
 
 	.wrapper {
 		min-height: 100%;
 		height: auto !imortant;
 		height: 100%;
-		margin: 0 auto -50px; /*the bottom margin is the negative value of the footer's height*/
+		margin: 0 auto -25px; /*the bottom margin is the negative value of the footer's height*/
 	}
 
 	.footer, .push {
-		height: 50px; /*push must be the same height as footer*/
+		height: 25px; /*push must be the same height as footer*/
 	}
 
 /*Header*/
@@ -27,31 +27,30 @@
     	top: 20px;
 		height: 50px;
 		min-width: 500px;
-		max-width: 900px;
+		max-width: 1000px;
 	background-color: #ADD6FF;
+	border: 2px solid #ADD6FF;
 	border-radius: 10px;
 }
 
 /*Content*/
-.contentField {
+.contentBox {
 	position: relative;
 	    margin-left: auto;
 	    margin-right: auto;
-	    top: 50px;
-	    height: 700px;
+	    top: 25px;
+	    height: 750px;
 	    min-height: 300px;
 	    min-width: 500px;
-	    max-width: 900px;
+	    max-width: 1000px;
 	border: 2px solid #ADD6FF;
 	border-radius: 10px;
-
-
 }
 
-.cloudBear {
-	position: relative;
+	.cloudBear {
+		position: relative;
 
-}
+	}
 
 /*Footer*/
 .footerBar {
@@ -59,8 +58,13 @@
     	margin-left: auto;
    		margin-right: auto;
 		min-width: 500px;
-		max-width: 900px;
+		max-width: 1000px;
+		min-height: 2em;
 	
 	background-color: #ADD6FF;
 	border-radius: 10px;
 }
+
+	.copyrightText{
+		font-family: verdana;
+	}
