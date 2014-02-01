@@ -2,7 +2,7 @@
 	include "header.php"
 ?>
 	<div id="content">
-		<div class="contentField">
+		<div class="contentBox">
 			<h1>Under konstruktion</h1>
 			<br/>
 			<img class="cloudBear" src="intropic.png" alt="bear" />
