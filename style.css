@@ -1,0 +1,64 @@
+/*http://ryanfait.com/sticky-footer/layout.css*/
+	* {
+		margin: 0;
+	}
+
+	html, body {
+		height: 100%;
+	}
+
+	.wrapper {
+		min-height: 100%;
+		height: auto !imortant;
+		height: 100%;
+		margin: 0 auto -50px; /*the bottom margin is the negative value of the footer's height*/
+	}
+
+	.footer, .push {
+		height: 50px; /*push must be the same height as footer*/
+	}
+
+/*Header*/
+.headerBar {
+	position: relative;
+    	padding-left: auto;
+    	padding-right: auto;
+    	top: 20px;
+		height: 50px;
+		min-width: 500px;
+		max-width: 900px;
+	background-color: #ADD6FF;
+	border-radius: 10px;
+}
+
+/*Content*/
+.contentField {
+	position: absolute;
+	    padding-left: auto;
+	    padding-right: auto;
+	    top: 100px;
+	    height: 700px;
+	    min-height: 300px;
+	    min-width: 500px;
+	    max-width: 900px;
+	border: 2px solid #ADD6FF;
+	border-radius: 10px;
+
+
+}
+
+.cloudBear {
+	position: relative;
+
+}
+
+/*Footer*/
+.footerBar {
+    padding-left: auto;
+   	padding-right: auto;
+	min-width: 500px;
+	max-width: 900px;
+	
+	background-color: #ADD6FF;
+	border-radius: 10px;
+}
